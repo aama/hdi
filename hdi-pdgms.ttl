@@ -1,5 +1,5 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data//hdi/hdi-pdgms.edn
+#../aama-data/data/hdi/hdi-pdgms.edn
 
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
@@ -462,6 +462,8 @@ hdi:rootClass aamas:pclass aamas:inflClass .
 aamas:inflClass rdfs:label "inflClass" .
 
 #LEXEMES:
+
+##LexItems
 aama:Hdi-token a aamas:Lexeme ;
 	aamas:lang aama:Hdi ;
 	rdfs:label "token" ;
@@ -480,7 +482,7 @@ hdi:Finite_Verb_Paradigms_to_be_added a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:ID981eb5c4-ea57-43fd-9796-465536de44f8 a aamas:Term ;
+aama:ID5b2c37c6-56cd-4e6e-80ea-70cec59324b7 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:Finite_Verb_Paradigms_to_be_added ;
 	hdi:vmorpheme hdi:FiniteToBeAdded ;
@@ -498,7 +500,7 @@ hdi:Pronominal_Paradigms_to_be_added a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:ID5df60cbc-4e70-47a2-9dce-39859e150ec8 a aamas:Term ;
+aama:ID4e63ff21-d2dc-4027-a11e-eae1d6350b07 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:Pronominal_Paradigms_to_be_added ;
 	hdi:pos hdi:Pronoun ;
