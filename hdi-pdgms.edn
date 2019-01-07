@@ -6,50 +6,73 @@
  :datasourceNotes ""
  :geodemoURL "http://www.ethnologue.com/language/xed"
  :geodemoTXT "Spoken in Cameroon, Far North region: Mayo-Tsanaga division, Mokolo subdivision, Nigeria border northwest of Mokolo. 15 villages. About 25,000 (2001 SIL) in Nigeria. Total users in all countries: 29,000."
-:schemata {:nmorphClass [:PLMARK :POSTPOSITION],
-            :case [:Ablative :Equative :Locative :Nom_obj :Object :Possessive :Subject],
-            :conjClass [:Enclitic :Prefix :Suffix],
-            :defClass [:DefClass1 :DefClass2 :DefClass3],
-            :deixis [:Far :Near],
-            :derivedStem [:B :BIntensive :M :MIntensive :R :S :SIntensive :SMIntensive :SS :T :TIntensive],
-            :gender [:Common :Fem :Masc],
-            :number [:Plural :Singular :_NA],
-            :participle [],
-            :person [:Person1 :Person2 :Person3],
-            :pluralClass [],
-            :polarity [:Affirmative :Negative],
-            :pos [:Noun :Pronoun :Verb],
-            :postpositionClass [],
-            :proClass [:DefMarker :Demonstrative :Independent :PossObj :ProComp],
-            :rootClass [:CCC :CCY :CVC :Invar],
-            :tam [:Aorist :Future :Imperative :Jussive :NA :Optative :Past :Permissive :Present],
-            :vmorphClass [:FiniteToBeAdded :Affix_SubjMark  :NonFin_Participles :Stem_DervSem :Stem_DervTense :Stem_Tam]
-            :pdgmType [:Finite :FinitePartial :PRO :NOM :VOther]}
+ :schemata {
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :defClass :deixis :derivedStem :derivedStemAug :participle :polarity :pos :proClass :tam],
           :inflClass [:conjClass :pluralClass :postpositionClass :rootClass],
           :otherClass []}
  :lexemes {
-           :token {:conjClass :token, :derivedStem :token,  :rootClass :token, :lemma "", :gloss ""},}
+           }
  :termclusters [
-
-           {:label "Finite_Verb_Paradigms_to_be_added"
-            :common {:vmorpheme :FiniteToBeAdded
-                     :pos :Verb,
-                     ;; needs :person and one other prop to pass muster
-                     :person :To_be_added
-                     :tam :To_be_added}
-            :terms [[:token],
-                    [  "not attested"]]
-            }
-           {:label "Pronominal_Paradigms_to_be_added"
-            :common {:pos :Pronoun,
-                     :proClass :To_be_added}
-            :terms [[:token],
-                    ["not attested"]]
-            }
-
-           ]
- }
-
+                {:label "Finite_Verb_Paradigms_to_be_added"
+                 :note ""
+                 :common {:vmorpheme :FiniteToBeAdded
+                          :pos :Verb,
+                          ;; needs :person and one other prop to pass muster
+                          :person :To_be_added
+                          :tam :To_be_added}
+                 :terms [[:token],
+                         [  "not attested"]]
+                 }
+                {:label "hdi-PIndSubj"
+                 :note "Frajzingier2002, 83"
+                 :common {:pos :Pronoun, 
+                          :pmorphClass :ProMorph,
+                          :case :Subject
+                          :proClass :Independent}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "íí"]
+                         [:Singular :Person2 :Common "káɣá"],
+                         [:Singular :Person3 :Common "tsátsí"],
+                         [:Dual :Person1 :Common "úú"],
+                         [:Plural :Person1ex :Common "ámú"],
+                         [:Plural :Person1in :Common "áŋní"],
+                         [:Plural :Person2 :Common "káɣúní"],
+                         [:Plural :Person3 :Common "xáxən"]]
+                 }
+                 ]
+                {:label "hdi-PCliticSubj"
+                 :note "Frajzingier2002, 124 [NB: grave on 3pl shwa]"
+                 :common {:pos :Pronoun, 
+                          :pmorphClass :ProMorph,
+                          :case :Subject
+                          :proClass :Clitic}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "í, íyù "]
+                         [:Singular :Person2 :Common "ká"],
+                         [:Singular :Person3 :Common "Ø, a, tsí"],
+                         [:Dual :Person1 :Common "úú"],
+                         [:Plural :Person1ex :Common "mú"],
+                         [:Plural :Person1in :Common "ŋní"],
+                         [:Plural :Person2 :Common "kúní"],
+                         [:Plural :Person3 :Common "xən"]]
+                 }
+                {:label "hdi-PCliticObj"
+                 :note "Frajzingier2002, 135. [NB: grave on 3pl shwa]"
+                 :common {:pos :Pronoun, 
+                          :pmorphClass :ProMorph,
+                          :case :Object
+                          :proClass :Clitic}
+                 :terms [[:number :person :gender :token],
+                         [:Singular :Person1 :Common "í, ɗ, í-xà "]
+                         [:Singular :Person2 :Common "ghá"],
+                         [:Singular :Person3 :Common "Ø, n"],
+                         [:Dual :Person1 :Common "úú"],
+                         [:Plural :Person1ex :Common "mù"],
+                         [:Plural :Person1in :Common "ŋní"],
+                         [:Plural :Person2 :Common "ghúní"],
+                         [:Plural :Person3 :Common "xən"]]
+                 }
+                }
 
