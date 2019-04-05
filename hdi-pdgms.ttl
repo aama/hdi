@@ -15,414 +15,11 @@ aama:Hdi a aamas:Language .
 aama:Hdi rdfs:label "Hdi" .
 aama:Hdi aamas:subfamily "CentralChadic" .
 aama:Hdi aamas:lpref "hdi" .
-aama:Hdi aamas:dataSource "Frajzyngier2002" .
+aama:Hdi aamas:dataSource "Frajzyngier2002; abbrev. F02" .
 aama:Hdi aamas:dataSourceNotes "" .
 aama:Hdi aamas:geodemoURL "http://www.ethnologue.com/language/xed" .
 aama:Hdi aamas:geodemoTXT "Spoken in Cameroon%% Far North region: Mayo-Tsanaga division%% Mokolo subdivision%% Nigeria border northwest of Mokolo. 15 villages. About 25%%000 (2001 SIL) in Nigeria. Total users in all countries: 29%%000." .
 
-
-#SCHEMATA: participle
-hdi:participle aamas:lang aama:Hdi .
-hdi:Participle aamas:lang aama:Hdi .
-hdi:participle rdfs:domain aamas:Term .
-hdi:Participle rdfs:label "participle exponents" .
-hdi:participle rdfs:label "participle" .
-hdi:participle rdfs:range hdi:Participle .
-hdi:Participle rdfs:subClassOf hdi:MuExponent .
-hdi:participle rdfs:subPropertyOf hdi:muProperty .
-
-#SCHEMATA: person
-hdi:person aamas:lang aama:Hdi .
-hdi:Person aamas:lang aama:Hdi .
-hdi:person rdfs:domain aamas:Term .
-hdi:Person rdfs:label "person exponents" .
-hdi:person rdfs:label "person" .
-hdi:person rdfs:range hdi:Person .
-hdi:Person rdfs:subClassOf hdi:MuExponent .
-hdi:person rdfs:subPropertyOf hdi:muProperty .
-hdi:Person1 aamas:lang aama:Hdi .
-hdi:Person1 rdf:type hdi:Person .
-hdi:Person1 rdfs:label "Person1" .
-hdi:Person2 aamas:lang aama:Hdi .
-hdi:Person2 rdf:type hdi:Person .
-hdi:Person2 rdfs:label "Person2" .
-hdi:Person3 aamas:lang aama:Hdi .
-hdi:Person3 rdf:type hdi:Person .
-hdi:Person3 rdfs:label "Person3" .
-
-#SCHEMATA: derivedStem
-hdi:derivedStem aamas:lang aama:Hdi .
-hdi:Derivedstem aamas:lang aama:Hdi .
-hdi:derivedStem rdfs:domain aamas:Term .
-hdi:Derivedstem rdfs:label "derivedStem exponents" .
-hdi:derivedStem rdfs:label "derivedStem" .
-hdi:derivedStem rdfs:range hdi:Derivedstem .
-hdi:Derivedstem rdfs:subClassOf hdi:MuExponent .
-hdi:derivedStem rdfs:subPropertyOf hdi:muProperty .
-hdi:B aamas:lang aama:Hdi .
-hdi:B rdf:type hdi:Derivedstem .
-hdi:B rdfs:label "B" .
-hdi:BIntensive aamas:lang aama:Hdi .
-hdi:BIntensive rdf:type hdi:Derivedstem .
-hdi:BIntensive rdfs:label "BIntensive" .
-hdi:M aamas:lang aama:Hdi .
-hdi:M rdf:type hdi:Derivedstem .
-hdi:M rdfs:label "M" .
-hdi:MIntensive aamas:lang aama:Hdi .
-hdi:MIntensive rdf:type hdi:Derivedstem .
-hdi:MIntensive rdfs:label "MIntensive" .
-hdi:R aamas:lang aama:Hdi .
-hdi:R rdf:type hdi:Derivedstem .
-hdi:R rdfs:label "R" .
-hdi:S aamas:lang aama:Hdi .
-hdi:S rdf:type hdi:Derivedstem .
-hdi:S rdfs:label "S" .
-hdi:SIntensive aamas:lang aama:Hdi .
-hdi:SIntensive rdf:type hdi:Derivedstem .
-hdi:SIntensive rdfs:label "SIntensive" .
-hdi:SMIntensive aamas:lang aama:Hdi .
-hdi:SMIntensive rdf:type hdi:Derivedstem .
-hdi:SMIntensive rdfs:label "SMIntensive" .
-hdi:SS aamas:lang aama:Hdi .
-hdi:SS rdf:type hdi:Derivedstem .
-hdi:SS rdfs:label "SS" .
-hdi:T aamas:lang aama:Hdi .
-hdi:T rdf:type hdi:Derivedstem .
-hdi:T rdfs:label "T" .
-hdi:TIntensive aamas:lang aama:Hdi .
-hdi:TIntensive rdf:type hdi:Derivedstem .
-hdi:TIntensive rdfs:label "TIntensive" .
-
-#SCHEMATA: number
-hdi:number aamas:lang aama:Hdi .
-hdi:Number aamas:lang aama:Hdi .
-hdi:number rdfs:domain aamas:Term .
-hdi:Number rdfs:label "number exponents" .
-hdi:number rdfs:label "number" .
-hdi:number rdfs:range hdi:Number .
-hdi:Number rdfs:subClassOf hdi:MuExponent .
-hdi:number rdfs:subPropertyOf hdi:muProperty .
-hdi:Plural aamas:lang aama:Hdi .
-hdi:Plural rdf:type hdi:Number .
-hdi:Plural rdfs:label "Plural" .
-hdi:Singular aamas:lang aama:Hdi .
-hdi:Singular rdf:type hdi:Number .
-hdi:Singular rdfs:label "Singular" .
-hdi:_NA aamas:lang aama:Hdi .
-hdi:_NA rdf:type hdi:Number .
-hdi:_NA rdfs:label "_NA" .
-
-#SCHEMATA: vmorphClass
-hdi:vmorphClass aamas:lang aama:Hdi .
-hdi:Vmorphclass aamas:lang aama:Hdi .
-hdi:vmorphClass rdfs:domain aamas:Term .
-hdi:Vmorphclass rdfs:label "vmorphClass exponents" .
-hdi:vmorphClass rdfs:label "vmorphClass" .
-hdi:vmorphClass rdfs:range hdi:Vmorphclass .
-hdi:Vmorphclass rdfs:subClassOf hdi:MuExponent .
-hdi:vmorphClass rdfs:subPropertyOf hdi:muProperty .
-hdi:FiniteToBeAdded aamas:lang aama:Hdi .
-hdi:FiniteToBeAdded rdf:type hdi:Vmorphclass .
-hdi:FiniteToBeAdded rdfs:label "FiniteToBeAdded" .
-hdi:Affix_SubjMark aamas:lang aama:Hdi .
-hdi:Affix_SubjMark rdf:type hdi:Vmorphclass .
-hdi:Affix_SubjMark rdfs:label "Affix_SubjMark" .
-hdi:NonFin_Participles aamas:lang aama:Hdi .
-hdi:NonFin_Participles rdf:type hdi:Vmorphclass .
-hdi:NonFin_Participles rdfs:label "NonFin_Participles" .
-hdi:Stem_DervSem aamas:lang aama:Hdi .
-hdi:Stem_DervSem rdf:type hdi:Vmorphclass .
-hdi:Stem_DervSem rdfs:label "Stem_DervSem" .
-hdi:Stem_DervTense aamas:lang aama:Hdi .
-hdi:Stem_DervTense rdf:type hdi:Vmorphclass .
-hdi:Stem_DervTense rdfs:label "Stem_DervTense" .
-hdi:Stem_Tam aamas:lang aama:Hdi .
-hdi:Stem_Tam rdf:type hdi:Vmorphclass .
-hdi:Stem_Tam rdfs:label "Stem_Tam" .
-
-#SCHEMATA: pos
-hdi:pos aamas:lang aama:Hdi .
-hdi:Pos aamas:lang aama:Hdi .
-hdi:pos rdfs:domain aamas:Term .
-hdi:Pos rdfs:label "pos exponents" .
-hdi:pos rdfs:label "pos" .
-hdi:pos rdfs:range hdi:Pos .
-hdi:Pos rdfs:subClassOf hdi:MuExponent .
-hdi:pos rdfs:subPropertyOf hdi:muProperty .
-hdi:Noun aamas:lang aama:Hdi .
-hdi:Noun rdf:type hdi:Pos .
-hdi:Noun rdfs:label "Noun" .
-hdi:Pronoun aamas:lang aama:Hdi .
-hdi:Pronoun rdf:type hdi:Pos .
-hdi:Pronoun rdfs:label "Pronoun" .
-hdi:Verb aamas:lang aama:Hdi .
-hdi:Verb rdf:type hdi:Pos .
-hdi:Verb rdfs:label "Verb" .
-
-#SCHEMATA: proClass
-hdi:proClass aamas:lang aama:Hdi .
-hdi:Proclass aamas:lang aama:Hdi .
-hdi:proClass rdfs:domain aamas:Term .
-hdi:Proclass rdfs:label "proClass exponents" .
-hdi:proClass rdfs:label "proClass" .
-hdi:proClass rdfs:range hdi:Proclass .
-hdi:Proclass rdfs:subClassOf hdi:MuExponent .
-hdi:proClass rdfs:subPropertyOf hdi:muProperty .
-hdi:DefMarker aamas:lang aama:Hdi .
-hdi:DefMarker rdf:type hdi:Proclass .
-hdi:DefMarker rdfs:label "DefMarker" .
-hdi:Demonstrative aamas:lang aama:Hdi .
-hdi:Demonstrative rdf:type hdi:Proclass .
-hdi:Demonstrative rdfs:label "Demonstrative" .
-hdi:Independent aamas:lang aama:Hdi .
-hdi:Independent rdf:type hdi:Proclass .
-hdi:Independent rdfs:label "Independent" .
-hdi:PossObj aamas:lang aama:Hdi .
-hdi:PossObj rdf:type hdi:Proclass .
-hdi:PossObj rdfs:label "PossObj" .
-hdi:ProComp aamas:lang aama:Hdi .
-hdi:ProComp rdf:type hdi:Proclass .
-hdi:ProComp rdfs:label "ProComp" .
-
-#SCHEMATA: conjClass
-hdi:conjClass aamas:lang aama:Hdi .
-hdi:Conjclass aamas:lang aama:Hdi .
-hdi:conjClass rdfs:domain aamas:Term .
-hdi:Conjclass rdfs:label "conjClass exponents" .
-hdi:conjClass rdfs:label "conjClass" .
-hdi:conjClass rdfs:range hdi:Conjclass .
-hdi:Conjclass rdfs:subClassOf hdi:MuExponent .
-hdi:conjClass rdfs:subPropertyOf hdi:muProperty .
-hdi:Enclitic aamas:lang aama:Hdi .
-hdi:Enclitic rdf:type hdi:Conjclass .
-hdi:Enclitic rdfs:label "Enclitic" .
-hdi:Prefix aamas:lang aama:Hdi .
-hdi:Prefix rdf:type hdi:Conjclass .
-hdi:Prefix rdfs:label "Prefix" .
-hdi:Suffix aamas:lang aama:Hdi .
-hdi:Suffix rdf:type hdi:Conjclass .
-hdi:Suffix rdfs:label "Suffix" .
-
-#SCHEMATA: case
-hdi:case aamas:lang aama:Hdi .
-hdi:Case aamas:lang aama:Hdi .
-hdi:case rdfs:domain aamas:Term .
-hdi:Case rdfs:label "case exponents" .
-hdi:case rdfs:label "case" .
-hdi:case rdfs:range hdi:Case .
-hdi:Case rdfs:subClassOf hdi:MuExponent .
-hdi:case rdfs:subPropertyOf hdi:muProperty .
-hdi:Ablative aamas:lang aama:Hdi .
-hdi:Ablative rdf:type hdi:Case .
-hdi:Ablative rdfs:label "Ablative" .
-hdi:Equative aamas:lang aama:Hdi .
-hdi:Equative rdf:type hdi:Case .
-hdi:Equative rdfs:label "Equative" .
-hdi:Locative aamas:lang aama:Hdi .
-hdi:Locative rdf:type hdi:Case .
-hdi:Locative rdfs:label "Locative" .
-hdi:Nom_obj aamas:lang aama:Hdi .
-hdi:Nom_obj rdf:type hdi:Case .
-hdi:Nom_obj rdfs:label "Nom_obj" .
-hdi:Object aamas:lang aama:Hdi .
-hdi:Object rdf:type hdi:Case .
-hdi:Object rdfs:label "Object" .
-hdi:Possessive aamas:lang aama:Hdi .
-hdi:Possessive rdf:type hdi:Case .
-hdi:Possessive rdfs:label "Possessive" .
-hdi:Subject aamas:lang aama:Hdi .
-hdi:Subject rdf:type hdi:Case .
-hdi:Subject rdfs:label "Subject" .
-
-#SCHEMATA: polarity
-hdi:polarity aamas:lang aama:Hdi .
-hdi:Polarity aamas:lang aama:Hdi .
-hdi:polarity rdfs:domain aamas:Term .
-hdi:Polarity rdfs:label "polarity exponents" .
-hdi:polarity rdfs:label "polarity" .
-hdi:polarity rdfs:range hdi:Polarity .
-hdi:Polarity rdfs:subClassOf hdi:MuExponent .
-hdi:polarity rdfs:subPropertyOf hdi:muProperty .
-hdi:Affirmative aamas:lang aama:Hdi .
-hdi:Affirmative rdf:type hdi:Polarity .
-hdi:Affirmative rdfs:label "Affirmative" .
-hdi:Negative aamas:lang aama:Hdi .
-hdi:Negative rdf:type hdi:Polarity .
-hdi:Negative rdfs:label "Negative" .
-
-#SCHEMATA: tam
-hdi:tam aamas:lang aama:Hdi .
-hdi:Tam aamas:lang aama:Hdi .
-hdi:tam rdfs:domain aamas:Term .
-hdi:Tam rdfs:label "tam exponents" .
-hdi:tam rdfs:label "tam" .
-hdi:tam rdfs:range hdi:Tam .
-hdi:Tam rdfs:subClassOf hdi:MuExponent .
-hdi:tam rdfs:subPropertyOf hdi:muProperty .
-hdi:Aorist aamas:lang aama:Hdi .
-hdi:Aorist rdf:type hdi:Tam .
-hdi:Aorist rdfs:label "Aorist" .
-hdi:Future aamas:lang aama:Hdi .
-hdi:Future rdf:type hdi:Tam .
-hdi:Future rdfs:label "Future" .
-hdi:Imperative aamas:lang aama:Hdi .
-hdi:Imperative rdf:type hdi:Tam .
-hdi:Imperative rdfs:label "Imperative" .
-hdi:Jussive aamas:lang aama:Hdi .
-hdi:Jussive rdf:type hdi:Tam .
-hdi:Jussive rdfs:label "Jussive" .
-hdi:NA aamas:lang aama:Hdi .
-hdi:NA rdf:type hdi:Tam .
-hdi:NA rdfs:label "NA" .
-hdi:Optative aamas:lang aama:Hdi .
-hdi:Optative rdf:type hdi:Tam .
-hdi:Optative rdfs:label "Optative" .
-hdi:Past aamas:lang aama:Hdi .
-hdi:Past rdf:type hdi:Tam .
-hdi:Past rdfs:label "Past" .
-hdi:Permissive aamas:lang aama:Hdi .
-hdi:Permissive rdf:type hdi:Tam .
-hdi:Permissive rdfs:label "Permissive" .
-hdi:Present aamas:lang aama:Hdi .
-hdi:Present rdf:type hdi:Tam .
-hdi:Present rdfs:label "Present" .
-
-#SCHEMATA: postpositionClass
-hdi:postpositionClass aamas:lang aama:Hdi .
-hdi:Postpositionclass aamas:lang aama:Hdi .
-hdi:postpositionClass rdfs:domain aamas:Term .
-hdi:Postpositionclass rdfs:label "postpositionClass exponents" .
-hdi:postpositionClass rdfs:label "postpositionClass" .
-hdi:postpositionClass rdfs:range hdi:Postpositionclass .
-hdi:Postpositionclass rdfs:subClassOf hdi:MuExponent .
-hdi:postpositionClass rdfs:subPropertyOf hdi:muProperty .
-
-#SCHEMATA: gender
-hdi:gender aamas:lang aama:Hdi .
-hdi:Gender aamas:lang aama:Hdi .
-hdi:gender rdfs:domain aamas:Term .
-hdi:Gender rdfs:label "gender exponents" .
-hdi:gender rdfs:label "gender" .
-hdi:gender rdfs:range hdi:Gender .
-hdi:Gender rdfs:subClassOf hdi:MuExponent .
-hdi:gender rdfs:subPropertyOf hdi:muProperty .
-hdi:Common aamas:lang aama:Hdi .
-hdi:Common rdf:type hdi:Gender .
-hdi:Common rdfs:label "Common" .
-hdi:Fem aamas:lang aama:Hdi .
-hdi:Fem rdf:type hdi:Gender .
-hdi:Fem rdfs:label "Fem" .
-hdi:Masc aamas:lang aama:Hdi .
-hdi:Masc rdf:type hdi:Gender .
-hdi:Masc rdfs:label "Masc" .
-
-#SCHEMATA: pluralClass
-hdi:pluralClass aamas:lang aama:Hdi .
-hdi:Pluralclass aamas:lang aama:Hdi .
-hdi:pluralClass rdfs:domain aamas:Term .
-hdi:Pluralclass rdfs:label "pluralClass exponents" .
-hdi:pluralClass rdfs:label "pluralClass" .
-hdi:pluralClass rdfs:range hdi:Pluralclass .
-hdi:Pluralclass rdfs:subClassOf hdi:MuExponent .
-hdi:pluralClass rdfs:subPropertyOf hdi:muProperty .
-
-#SCHEMATA: nmorphClass
-hdi:nmorphClass aamas:lang aama:Hdi .
-hdi:Nmorphclass aamas:lang aama:Hdi .
-hdi:nmorphClass rdfs:domain aamas:Term .
-hdi:Nmorphclass rdfs:label "nmorphClass exponents" .
-hdi:nmorphClass rdfs:label "nmorphClass" .
-hdi:nmorphClass rdfs:range hdi:Nmorphclass .
-hdi:Nmorphclass rdfs:subClassOf hdi:MuExponent .
-hdi:nmorphClass rdfs:subPropertyOf hdi:muProperty .
-hdi:PLMARK aamas:lang aama:Hdi .
-hdi:PLMARK rdf:type hdi:Nmorphclass .
-hdi:PLMARK rdfs:label "PLMARK" .
-hdi:POSTPOSITION aamas:lang aama:Hdi .
-hdi:POSTPOSITION rdf:type hdi:Nmorphclass .
-hdi:POSTPOSITION rdfs:label "POSTPOSITION" .
-
-#SCHEMATA: defClass
-hdi:defClass aamas:lang aama:Hdi .
-hdi:Defclass aamas:lang aama:Hdi .
-hdi:defClass rdfs:domain aamas:Term .
-hdi:Defclass rdfs:label "defClass exponents" .
-hdi:defClass rdfs:label "defClass" .
-hdi:defClass rdfs:range hdi:Defclass .
-hdi:Defclass rdfs:subClassOf hdi:MuExponent .
-hdi:defClass rdfs:subPropertyOf hdi:muProperty .
-hdi:DefClass1 aamas:lang aama:Hdi .
-hdi:DefClass1 rdf:type hdi:Defclass .
-hdi:DefClass1 rdfs:label "DefClass1" .
-hdi:DefClass2 aamas:lang aama:Hdi .
-hdi:DefClass2 rdf:type hdi:Defclass .
-hdi:DefClass2 rdfs:label "DefClass2" .
-hdi:DefClass3 aamas:lang aama:Hdi .
-hdi:DefClass3 rdf:type hdi:Defclass .
-hdi:DefClass3 rdfs:label "DefClass3" .
-
-#SCHEMATA: deixis
-hdi:deixis aamas:lang aama:Hdi .
-hdi:Deixis aamas:lang aama:Hdi .
-hdi:deixis rdfs:domain aamas:Term .
-hdi:Deixis rdfs:label "deixis exponents" .
-hdi:deixis rdfs:label "deixis" .
-hdi:deixis rdfs:range hdi:Deixis .
-hdi:Deixis rdfs:subClassOf hdi:MuExponent .
-hdi:deixis rdfs:subPropertyOf hdi:muProperty .
-hdi:Far aamas:lang aama:Hdi .
-hdi:Far rdf:type hdi:Deixis .
-hdi:Far rdfs:label "Far" .
-hdi:Near aamas:lang aama:Hdi .
-hdi:Near rdf:type hdi:Deixis .
-hdi:Near rdfs:label "Near" .
-
-#SCHEMATA: pdgmType
-aamas:pdgmType aamas:lang aama:Hdi .
-aamas:Pdgmtype aamas:lang aama:Hdi .
-aamas:pdgmType rdfs:domain aamas:Termcluster .
-aamas:Pdgmtype rdfs:label "pdgmType exponents" .
-aamas:pdgmType rdfs:label "pdgmType" .
-aamas:pdgmType rdfs:range aamas:Pdgmtype .
-aamas:Pdgmtype rdfs:subClassOf hdi:MuExponent .
-aamas:pdgmType rdfs:subPropertyOf hdi:muProperty .
-hdi:Finite aamas:lang aama:Hdi .
-hdi:Finite rdf:type aamas:Pdgmtype .
-hdi:Finite rdfs:label "Finite" .
-hdi:FinitePartial aamas:lang aama:Hdi .
-hdi:FinitePartial rdf:type aamas:Pdgmtype .
-hdi:FinitePartial rdfs:label "FinitePartial" .
-hdi:PRO aamas:lang aama:Hdi .
-hdi:PRO rdf:type aamas:Pdgmtype .
-hdi:PRO rdfs:label "PRO" .
-hdi:NOM aamas:lang aama:Hdi .
-hdi:NOM rdf:type aamas:Pdgmtype .
-hdi:NOM rdfs:label "NOM" .
-hdi:VOther aamas:lang aama:Hdi .
-hdi:VOther rdf:type aamas:Pdgmtype .
-hdi:VOther rdfs:label "VOther" .
-
-#SCHEMATA: rootClass
-hdi:rootClass aamas:lang aama:Hdi .
-hdi:Rootclass aamas:lang aama:Hdi .
-hdi:rootClass rdfs:domain aamas:Term .
-hdi:Rootclass rdfs:label "rootClass exponents" .
-hdi:rootClass rdfs:label "rootClass" .
-hdi:rootClass rdfs:range hdi:Rootclass .
-hdi:Rootclass rdfs:subClassOf hdi:MuExponent .
-hdi:rootClass rdfs:subPropertyOf hdi:muProperty .
-hdi:CCC aamas:lang aama:Hdi .
-hdi:CCC rdf:type hdi:Rootclass .
-hdi:CCC rdfs:label "CCC" .
-hdi:CCY aamas:lang aama:Hdi .
-hdi:CCY rdf:type hdi:Rootclass .
-hdi:CCY rdfs:label "CCY" .
-hdi:CVC aamas:lang aama:Hdi .
-hdi:CVC rdf:type hdi:Rootclass .
-hdi:CVC rdfs:label "CVC" .
-hdi:Invar aamas:lang aama:Hdi .
-hdi:Invar rdf:type hdi:Rootclass .
-hdi:Invar rdfs:label "Invar" .
 
 #PCLASSES:
 
@@ -464,25 +61,16 @@ aamas:inflClass rdfs:label "inflClass" .
 #LEXEMES:
 
 ##LexItems
-aama:Hdi-token a aamas:Lexeme ;
-	aamas:lang aama:Hdi ;
-	rdfs:label "token" ;
-	hdi:conjClass hdi:token ;
-	hdi:derivedStem hdi:token ;
-	hdi:rootClass hdi:token ;
-	aamas:lemma "" ;
-	aamas:gloss "" ;
-	.
 
 #TERMCLUSTER:  Finite_Verb_Paradigms_to_be_added
 
 hdi:Finite_Verb_Paradigms_to_be_added a aamas:Termcluster ;
 	rdfs:label "Finite_Verb_Paradigms_to_be_added" ;
 	aamas:lang aama:Hdi ;
-	rdfs:comment "" 
+	rdfs:comment "F02p." 
 	.
 
-aama:ID5b2c37c6-56cd-4e6e-80ea-70cec59324b7 a aamas:Term ;
+aama:ID85f54a99-7c18-4a83-9ec8-d11a9681cb23 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:Finite_Verb_Paradigms_to_be_added ;
 	hdi:vmorpheme hdi:FiniteToBeAdded ;
@@ -492,18 +80,338 @@ aama:ID5b2c37c6-56cd-4e6e-80ea-70cec59324b7 a aamas:Term ;
 	hdi:token "not attested" ;
 	.
 
-#TERMCLUSTER:  Pronominal_Paradigms_to_be_added
+#TERMCLUSTER:  hdi-PIndSubj
 
-hdi:Pronominal_Paradigms_to_be_added a aamas:Termcluster ;
-	rdfs:label "Pronominal_Paradigms_to_be_added" ;
+hdi:hdi-PIndSubj a aamas:Termcluster ;
+	rdfs:label "hdi-PIndSubj" ;
 	aamas:lang aama:Hdi ;
-	rdfs:comment "" 
+	rdfs:comment "F02p.83" 
 	.
 
-aama:ID4e63ff21-d2dc-4027-a11e-eae1d6350b07 a aamas:Term ;
+aama:ID90a71539-55d5-4d36-a705-8d43e919f801 a aamas:Term ;
 	aamas:lang aama:Hdi ;
-	aamas:memberOf hdi:Pronominal_Paradigms_to_be_added ;
+	aamas:memberOf hdi:hdi-PIndSubj ;
 	hdi:pos hdi:Pronoun ;
-	hdi:proClass hdi:To_be_added ;
-	hdi:token "not attested" ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Independent ;
+	hdi:token "íí" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person1 ;
+	hdi:number hdi:Singular ;
+	.
+
+aama:IDce6e280b-b338-47d7-91d3-42085e82ef34 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PIndSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Independent ;
+	hdi:token "káɣá" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person2 ;
+	hdi:number hdi:Singular ;
+	.
+
+aama:ID3ea1b6ea-2c13-47ed-9d6d-3496b74da812 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PIndSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Independent ;
+	hdi:token "tsátsí" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person3 ;
+	hdi:number hdi:Singular ;
+	.
+
+aama:ID2d4baf09-f994-47f5-b2e1-34b73281e510 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PIndSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Independent ;
+	hdi:token "úú" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person1 ;
+	hdi:number hdi:Dual ;
+	.
+
+aama:IDb7d7eedb-d9f2-401c-8d78-5dfe6ffd62b6 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PIndSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Independent ;
+	hdi:token "ámú" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person1ex ;
+	hdi:number hdi:Plural ;
+	.
+
+aama:ID05a3159c-cd14-44c6-952c-12b2c4b49f5b a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PIndSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Independent ;
+	hdi:token "áŋní" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person1in ;
+	hdi:number hdi:Plural ;
+	.
+
+aama:IDff77b1ac-481e-4dbf-b408-9213327e77e2 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PIndSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Independent ;
+	hdi:token "káɣúní" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person2 ;
+	hdi:number hdi:Plural ;
+	.
+
+aama:ID292119f3-e23c-4faa-adf0-2944cd96ebff a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PIndSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Independent ;
+	hdi:token "xáxən" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person3 ;
+	hdi:number hdi:Plural ;
+	.
+
+#TERMCLUSTER:  hdi-PCliticSubj
+
+hdi:hdi-PCliticSubj a aamas:Termcluster ;
+	rdfs:label "hdi-PCliticSubj" ;
+	aamas:lang aama:Hdi ;
+	rdfs:comment "F02p.124 :: [NB: grave on 3pl shwa]" 
+	.
+
+aama:IDc4db87a0-9bdb-4af1-9086-b1e81add02ef a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "í%% íyù " ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person1 ;
+	hdi:number hdi:Singular ;
+	.
+
+aama:IDac09c42f-98c5-462c-ab7b-2cd8d8105497 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "ká" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person2 ;
+	hdi:number hdi:Singular ;
+	.
+
+aama:IDd0be5716-9469-48dd-808e-b29e3cda95e1 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "Ø%% a%% tsí" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person3 ;
+	hdi:number hdi:Singular ;
+	.
+
+aama:IDa1dce023-fe00-4d11-9cca-d8ebaedef43f a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "úú" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person1 ;
+	hdi:number hdi:Dual ;
+	.
+
+aama:IDe8319ee4-b289-4364-8a53-8664b28825df a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "mú" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person1ex ;
+	hdi:number hdi:Plural ;
+	.
+
+aama:ID66eef395-c7c2-4088-88e6-75d57a829558 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "ŋní" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person1in ;
+	hdi:number hdi:Plural ;
+	.
+
+aama:ID6cbaf0d9-4fb3-4bd0-ab22-f120939a1c35 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "kúní" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person2 ;
+	hdi:number hdi:Plural ;
+	.
+
+aama:IDb0fe7dfc-5fde-42a1-b419-99a84f5742f8 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticSubj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Subject ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "xən" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person3 ;
+	hdi:number hdi:Plural ;
+	.
+
+#TERMCLUSTER:  hdi-PCliticObj
+
+hdi:hdi-PCliticObj a aamas:Termcluster ;
+	rdfs:label "hdi-PCliticObj" ;
+	aamas:lang aama:Hdi ;
+	rdfs:comment "F02p.135 :: [NB: grave on 3pl shwa]" 
+	.
+
+aama:ID08b0058b-b8b2-4628-93ae-5c199ed4ebd5 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticObj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Object ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "í%% ɗ%% í-xà " ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person1 ;
+	hdi:number hdi:Singular ;
+	.
+
+aama:IDea39b7cc-1948-481a-9d1c-ac3ca556831b a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticObj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Object ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "ghá" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person2 ;
+	hdi:number hdi:Singular ;
+	.
+
+aama:ID366dab8a-ba51-4728-9026-104212ba2602 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticObj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Object ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "Ø%% n" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person3 ;
+	hdi:number hdi:Singular ;
+	.
+
+aama:IDc64744c3-93fb-4bd6-af97-260699b69286 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticObj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Object ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "úú" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person1 ;
+	hdi:number hdi:Dual ;
+	.
+
+aama:IDba154b26-78ce-4f59-b81d-8b7eb3bc22c0 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticObj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Object ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "mù" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person1ex ;
+	hdi:number hdi:Plural ;
+	.
+
+aama:IDddf99359-4b9a-4885-9af9-67cda6304f12 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticObj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Object ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "ŋní" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person1in ;
+	hdi:number hdi:Plural ;
+	.
+
+aama:ID1133f106-0f34-40c5-aec3-0949d626582f a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticObj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Object ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "ghúní" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person2 ;
+	hdi:number hdi:Plural ;
+	.
+
+aama:ID41c3faba-871a-4ca7-8dd0-99f779664660 a aamas:Term ;
+	aamas:lang aama:Hdi ;
+	aamas:memberOf hdi:hdi-PCliticObj ;
+	hdi:pos hdi:Pronoun ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:case hdi:Object ;
+	hdi:proClass hdi:Clitic ;
+	hdi:token "xən" ;
+	hdi:gender hdi:Common ;
+	hdi:person hdi:Person3 ;
+	hdi:number hdi:Plural ;
 	.

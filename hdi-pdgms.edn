@@ -2,7 +2,7 @@
  :lang :hdi
  :subfamily "CentralChadic"
  :sgpref "hdi"
- :datasource "Frajzyngier2002"
+ :datasource "Frajzyngier2002; abbrev. F02"
  :datasourceNotes ""
  :geodemoURL "http://www.ethnologue.com/language/xed"
  :geodemoTXT "Spoken in Cameroon, Far North region: Mayo-Tsanaga division, Mokolo subdivision, Nigeria border northwest of Mokolo. 15 villages. About 25,000 (2001 SIL) in Nigeria. Total users in all countries: 29,000."
@@ -16,7 +16,7 @@
            }
  :termclusters [
                 {:label "Finite_Verb_Paradigms_to_be_added"
-                 :note ""
+                 :note "F02p."
                  :common {:vmorpheme :FiniteToBeAdded
                           :pos :Verb,
                           ;; needs :person and one other prop to pass muster
@@ -26,7 +26,7 @@
                          [  "not attested"]]
                  }
                 {:label "hdi-PIndSubj"
-                 :note "Frajzingier2002, 83"
+                 :note "F02p.83"
                  :common {:pos :Pronoun, 
                           :pmorphClass :ProMorph,
                           :case :Subject
@@ -41,9 +41,8 @@
                          [:Plural :Person2 :Common "káɣúní"],
                          [:Plural :Person3 :Common "xáxən"]]
                  }
-                 ]
                 {:label "hdi-PCliticSubj"
-                 :note "Frajzingier2002, 124 [NB: grave on 3pl shwa]"
+                 :note "F02p.124 :: [NB: grave on 3pl shwa]"
                  :common {:pos :Pronoun, 
                           :pmorphClass :ProMorph,
                           :case :Subject
@@ -59,7 +58,7 @@
                          [:Plural :Person3 :Common "xən"]]
                  }
                 {:label "hdi-PCliticObj"
-                 :note "Frajzingier2002, 135. [NB: grave on 3pl shwa]"
+                 :note "F02p.135 :: [NB: grave on 3pl shwa]"
                  :common {:pos :Pronoun, 
                           :pmorphClass :ProMorph,
                           :case :Object
@@ -74,5 +73,6 @@
                          [:Plural :Person2 :Common "ghúní"],
                          [:Plural :Person3 :Common "xən"]]
                  }
-                }
+                ]
+}
 
