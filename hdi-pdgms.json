@@ -1,0 +1,76 @@
+{
+  "lang": "hdi",
+  "subfamily": "CentralChadic",
+  "sgpref": "hdi",
+  "datasource": "Frajzyngier2002; abbrev. F02",
+  "datasourceNotes": "",
+  "geodemoURL": "http://www.ethnologue.com/language/xed",
+  "geodemoTXT": "Spoken in Cameroon, Far North region: Mayo-Tsanaga division, Mokolo subdivision, Nigeria border northwest of Mokolo. 15 villages. About 25,000 (2001 SIL) in Nigeria. Total users in all countries: 29,000.",
+  "schemata": {},
+  "lexemes": {},
+  "termclusters": [
+{
+"label": "Finite_Verb_Paradigms_to_be_added",
+"note": "F02p.",
+"common": {"person": "To_be_added",
+ "pos": "Verb",
+ "tam": "To_be_added",
+ "vmorpheme": "FiniteToBeAdded"},
+"terms":  
+[["token"], ["not attested"]]
+},
+{
+"label": "hdi-PIndSubj",
+"note": "F02p.83",
+"common": {"case": "Subject",
+ "pmorphClass": "ProMorph",
+ "pos": "Pronoun",
+ "proClass": "Independent"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "íí"],
+ ["Singular", "Person2", "Common", "káɣá"],
+ ["Singular", "Person3", "Common", "tsátsí"],
+ ["Dual", "Person1", "Common", "úú"],
+ ["Plural", "Person1ex", "Common", "ámú"],
+ ["Plural", "Person1in", "Common", "áŋní"],
+ ["Plural", "Person2", "Common", "káɣúní"],
+ ["Plural", "Person3", "Common", "xáxən"]]
+},
+{
+"label": "hdi-PCliticSubj",
+"note": "F02p.124 :: [NB: grave on 3pl shwa]",
+"common": {"case": "Subject",
+ "pmorphClass": "ProMorph",
+ "pos": "Pronoun",
+ "proClass": "Clitic"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "í, íyù "],
+ ["Singular", "Person2", "Common", "ká"],
+ ["Singular", "Person3", "Common", "Ø, a, tsí"],
+ ["Dual", "Person1", "Common", "úú"],
+ ["Plural", "Person1ex", "Common", "mú"],
+ ["Plural", "Person1in", "Common", "ŋní"],
+ ["Plural", "Person2", "Common", "kúní"],
+ ["Plural", "Person3", "Common", "xən"]]
+},
+{
+"label": "hdi-PCliticObj",
+"note": "F02p.135 :: [NB: grave on 3pl shwa]",
+"common": {"case": "Object",
+ "pmorphClass": "ProMorph",
+ "pos": "Pronoun",
+ "proClass": "Clitic"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "í, ɗ, í-xà "],
+ ["Singular", "Person2", "Common", "ghá"],
+ ["Singular", "Person3", "Common", "Ø, n"],
+ ["Dual", "Person1", "Common", "úú"],
+ ["Plural", "Person1ex", "Common", "mù"],
+ ["Plural", "Person1in", "Common", "ŋní"],
+ ["Plural", "Person2", "Common", "ghúní"],
+ ["Plural", "Person3", "Common", "xən"]]
+}]
+}

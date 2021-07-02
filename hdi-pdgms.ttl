@@ -1,68 +1,33 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data/hdi/hdi-pdgms.edn
+#data/hdi-pdgms.json
 
-@prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dc:    <http://purl.org/dc/elements>.
-@prefix dcterms:    <http://purl.org/dc/terms>.
-@prefix aama:	 <http://id.oi.uchicago.edu/aama/2013/> .
+
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc:      <http://purl.org/dc/elements> .
+@prefix dcterms: <http://purl.org/dc/terms> .
+@prefix aama:    <http://id.oi.uchicago.edu/aama/2013/> .
 @prefix aamas:	 <http://id.oi.uchicago.edu/aama/2013/schema/> .
-@prefix hdi:   <http://id.oi.uchicago.edu/aama/2013/hdi/> .
+@prefix hdi:     <http://id.oi.uchicago.edu/aama/2013/hdi/> .
 
 #LANG INFO:
 
-aama:Hdi a aamas:Language .
+aama:Hdi a aamas:Language.
 aama:Hdi rdfs:label "Hdi" .
 aama:Hdi aamas:subfamily "CentralChadic" .
 aama:Hdi aamas:lpref "hdi" .
 aama:Hdi aamas:dataSource "Frajzyngier2002; abbrev. F02" .
-aama:Hdi aamas:dataSourceNotes "" .
 aama:Hdi aamas:geodemoURL "http://www.ethnologue.com/language/xed" .
-aama:Hdi aamas:geodemoTXT "Spoken in Cameroon%% Far North region: Mayo-Tsanaga division%% Mokolo subdivision%% Nigeria border northwest of Mokolo. 15 villages. About 25%%000 (2001 SIL) in Nigeria. Total users in all countries: 29%%000." .
+aama:Hdi aamas:geodemoTxt "Spoken in Cameroon, Far North region: Mayo-Tsanaga division, Mokolo subdivision, Nigeria border northwest of Mokolo. 15 villages. About 25,000 (2001 SIL) in Nigeria. Total users in all countries: 29,000." .
+
+#LEXEMES: Hdi
+
+#LexItems: Hdi
 
 
-#PCLASSES:
+#TERMCLUSTERS: Hdi
 
-hdi:person aamas:pclass aamas:pngClass .
-aamas:pngClass rdfs:label "pngClass" .
-hdi:number aamas:pclass aamas:pngClass .
-aamas:pngClass rdfs:label "pngClass" .
-hdi:gender aamas:pclass aamas:pngClass .
-aamas:pngClass rdfs:label "pngClass" .
-hdi:case aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-hdi:defClass aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-hdi:deixis aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-hdi:derivedStem aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-hdi:derivedStemAug aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-hdi:participle aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-hdi:polarity aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-hdi:pos aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-hdi:proClass aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-hdi:tam aamas:pclass aamas:synsemClass .
-aamas:synsemClass rdfs:label "synsemClass" .
-hdi:conjClass aamas:pclass aamas:inflClass .
-aamas:inflClass rdfs:label "inflClass" .
-hdi:pluralClass aamas:pclass aamas:inflClass .
-aamas:inflClass rdfs:label "inflClass" .
-hdi:postpositionClass aamas:pclass aamas:inflClass .
-aamas:inflClass rdfs:label "inflClass" .
-hdi:rootClass aamas:pclass aamas:inflClass .
-aamas:inflClass rdfs:label "inflClass" .
-
-#LEXEMES:
-
-##LexItems
-
-#TERMCLUSTER:  Finite_Verb_Paradigms_to_be_added
+#TERMCLUSTER: Finite_Verb_Paradigms_to_be_added
 
 hdi:Finite_Verb_Paradigms_to_be_added a aamas:Termcluster ;
 	rdfs:label "Finite_Verb_Paradigms_to_be_added" ;
@@ -70,17 +35,17 @@ hdi:Finite_Verb_Paradigms_to_be_added a aamas:Termcluster ;
 	rdfs:comment "F02p." 
 	.
 
-aama:ID85f54a99-7c18-4a83-9ec8-d11a9681cb23 a aamas:Term ;
+aama:ID94ae188f-9658-4f62-bcc5-ecb7ea324e9f a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:Finite_Verb_Paradigms_to_be_added ;
-	hdi:vmorpheme hdi:FiniteToBeAdded ;
-	hdi:pos hdi:Verb ;
 	hdi:person hdi:To_be_added ;
+	hdi:pos hdi:Verb ;
 	hdi:tam hdi:To_be_added ;
+	hdi:vmorpheme hdi:FiniteToBeAdded ;
 	hdi:token "not attested" ;
 	.
 
-#TERMCLUSTER:  hdi-PIndSubj
+#TERMCLUSTER: hdi-PIndSubj
 
 hdi:hdi-PIndSubj a aamas:Termcluster ;
 	rdfs:label "hdi-PIndSubj" ;
@@ -88,111 +53,111 @@ hdi:hdi-PIndSubj a aamas:Termcluster ;
 	rdfs:comment "F02p.83" 
 	.
 
-aama:ID90a71539-55d5-4d36-a705-8d43e919f801 a aamas:Term ;
+aama:ID512dac55-1192-40dc-b784-63afe413c282 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PIndSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Independent ;
+	hdi:number hdi:Singular ;
+	hdi:person hdi:Person1 ;
+	hdi:gender hdi:Common ;
 	hdi:token "íí" ;
-	hdi:gender hdi:Common ;
-	hdi:person hdi:Person1 ;
-	hdi:number hdi:Singular ;
 	.
 
-aama:IDce6e280b-b338-47d7-91d3-42085e82ef34 a aamas:Term ;
+aama:ID763e475e-3cb7-4acc-a774-f9fdbc2af8a0 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PIndSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Independent ;
+	hdi:number hdi:Singular ;
+	hdi:person hdi:Person2 ;
+	hdi:gender hdi:Common ;
 	hdi:token "káɣá" ;
-	hdi:gender hdi:Common ;
-	hdi:person hdi:Person2 ;
-	hdi:number hdi:Singular ;
 	.
 
-aama:ID3ea1b6ea-2c13-47ed-9d6d-3496b74da812 a aamas:Term ;
+aama:ID8e3e9b3c-c4a4-4e3a-a044-2f89b22b81e2 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PIndSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Independent ;
+	hdi:number hdi:Singular ;
+	hdi:person hdi:Person3 ;
+	hdi:gender hdi:Common ;
 	hdi:token "tsátsí" ;
-	hdi:gender hdi:Common ;
-	hdi:person hdi:Person3 ;
-	hdi:number hdi:Singular ;
 	.
 
-aama:ID2d4baf09-f994-47f5-b2e1-34b73281e510 a aamas:Term ;
+aama:IDfec94e57-3469-48c4-86a1-a8f249b2da07 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PIndSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Independent ;
-	hdi:token "úú" ;
-	hdi:gender hdi:Common ;
-	hdi:person hdi:Person1 ;
 	hdi:number hdi:Dual ;
+	hdi:person hdi:Person1 ;
+	hdi:gender hdi:Common ;
+	hdi:token "úú" ;
 	.
 
-aama:IDb7d7eedb-d9f2-401c-8d78-5dfe6ffd62b6 a aamas:Term ;
+aama:IDcf28041f-c982-4e45-92df-0dee48231970 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PIndSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Independent ;
-	hdi:token "ámú" ;
-	hdi:gender hdi:Common ;
+	hdi:number hdi:Plural ;
 	hdi:person hdi:Person1ex ;
-	hdi:number hdi:Plural ;
+	hdi:gender hdi:Common ;
+	hdi:token "ámú" ;
 	.
 
-aama:ID05a3159c-cd14-44c6-952c-12b2c4b49f5b a aamas:Term ;
+aama:IDb61fd891-12c6-40be-9461-4d090a902c3e a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PIndSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Independent ;
-	hdi:token "áŋní" ;
-	hdi:gender hdi:Common ;
+	hdi:number hdi:Plural ;
 	hdi:person hdi:Person1in ;
-	hdi:number hdi:Plural ;
+	hdi:gender hdi:Common ;
+	hdi:token "áŋní" ;
 	.
 
-aama:IDff77b1ac-481e-4dbf-b408-9213327e77e2 a aamas:Term ;
+aama:ID185c9a64-d857-4b6a-b06f-bc305906db07 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PIndSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Independent ;
-	hdi:token "káɣúní" ;
-	hdi:gender hdi:Common ;
+	hdi:number hdi:Plural ;
 	hdi:person hdi:Person2 ;
-	hdi:number hdi:Plural ;
+	hdi:gender hdi:Common ;
+	hdi:token "káɣúní" ;
 	.
 
-aama:ID292119f3-e23c-4faa-adf0-2944cd96ebff a aamas:Term ;
+aama:IDae7459d4-4857-4ac5-984a-80d32a6abebd a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PIndSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Independent ;
-	hdi:token "xáxən" ;
-	hdi:gender hdi:Common ;
-	hdi:person hdi:Person3 ;
 	hdi:number hdi:Plural ;
+	hdi:person hdi:Person3 ;
+	hdi:gender hdi:Common ;
+	hdi:token "xáxən" ;
 	.
 
-#TERMCLUSTER:  hdi-PCliticSubj
+#TERMCLUSTER: hdi-PCliticSubj
 
 hdi:hdi-PCliticSubj a aamas:Termcluster ;
 	rdfs:label "hdi-PCliticSubj" ;
@@ -200,111 +165,111 @@ hdi:hdi-PCliticSubj a aamas:Termcluster ;
 	rdfs:comment "F02p.124 :: [NB: grave on 3pl shwa]" 
 	.
 
-aama:IDc4db87a0-9bdb-4af1-9086-b1e81add02ef a aamas:Term ;
+aama:IDf0e0a8f3-304b-4bf0-9701-1f0d38a1d01f a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "í%% íyù " ;
-	hdi:gender hdi:Common ;
-	hdi:person hdi:Person1 ;
 	hdi:number hdi:Singular ;
+	hdi:person hdi:Person1 ;
+	hdi:gender hdi:Common ;
+	hdi:token "í, íyù " ;
 	.
 
-aama:IDac09c42f-98c5-462c-ab7b-2cd8d8105497 a aamas:Term ;
+aama:IDf4f18cef-50c7-4aa6-b343-5b8a08943af4 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
+	hdi:number hdi:Singular ;
+	hdi:person hdi:Person2 ;
+	hdi:gender hdi:Common ;
 	hdi:token "ká" ;
-	hdi:gender hdi:Common ;
-	hdi:person hdi:Person2 ;
-	hdi:number hdi:Singular ;
 	.
 
-aama:IDd0be5716-9469-48dd-808e-b29e3cda95e1 a aamas:Term ;
+aama:ID5fc9c8fb-82dd-42b0-b311-5d673161c394 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "Ø%% a%% tsí" ;
-	hdi:gender hdi:Common ;
+	hdi:number hdi:Singular ;
 	hdi:person hdi:Person3 ;
-	hdi:number hdi:Singular ;
+	hdi:gender hdi:Common ;
+	hdi:token "Ø, a, tsí" ;
 	.
 
-aama:IDa1dce023-fe00-4d11-9cca-d8ebaedef43f a aamas:Term ;
+aama:ID305acc1f-3768-41c1-b0b9-a0d6ae4ad3f1 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "úú" ;
-	hdi:gender hdi:Common ;
-	hdi:person hdi:Person1 ;
 	hdi:number hdi:Dual ;
+	hdi:person hdi:Person1 ;
+	hdi:gender hdi:Common ;
+	hdi:token "úú" ;
 	.
 
-aama:IDe8319ee4-b289-4364-8a53-8664b28825df a aamas:Term ;
+aama:ID6794159b-b852-49ce-b241-cfe8996eaa9f a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "mú" ;
-	hdi:gender hdi:Common ;
+	hdi:number hdi:Plural ;
 	hdi:person hdi:Person1ex ;
-	hdi:number hdi:Plural ;
+	hdi:gender hdi:Common ;
+	hdi:token "mú" ;
 	.
 
-aama:ID66eef395-c7c2-4088-88e6-75d57a829558 a aamas:Term ;
+aama:ID35f2900b-0e78-4be9-98cb-2fc5420db918 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "ŋní" ;
-	hdi:gender hdi:Common ;
+	hdi:number hdi:Plural ;
 	hdi:person hdi:Person1in ;
-	hdi:number hdi:Plural ;
+	hdi:gender hdi:Common ;
+	hdi:token "ŋní" ;
 	.
 
-aama:ID6cbaf0d9-4fb3-4bd0-ab22-f120939a1c35 a aamas:Term ;
+aama:ID6a2ce5cd-a149-4bae-a99c-c20b24e47ba9 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "kúní" ;
-	hdi:gender hdi:Common ;
+	hdi:number hdi:Plural ;
 	hdi:person hdi:Person2 ;
-	hdi:number hdi:Plural ;
+	hdi:gender hdi:Common ;
+	hdi:token "kúní" ;
 	.
 
-aama:IDb0fe7dfc-5fde-42a1-b419-99a84f5742f8 a aamas:Term ;
+aama:IDa82fd753-592e-4147-8c36-e3098b7a23d6 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticSubj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Subject ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "xən" ;
-	hdi:gender hdi:Common ;
-	hdi:person hdi:Person3 ;
 	hdi:number hdi:Plural ;
+	hdi:person hdi:Person3 ;
+	hdi:gender hdi:Common ;
+	hdi:token "xən" ;
 	.
 
-#TERMCLUSTER:  hdi-PCliticObj
+#TERMCLUSTER: hdi-PCliticObj
 
 hdi:hdi-PCliticObj a aamas:Termcluster ;
 	rdfs:label "hdi-PCliticObj" ;
@@ -312,106 +277,107 @@ hdi:hdi-PCliticObj a aamas:Termcluster ;
 	rdfs:comment "F02p.135 :: [NB: grave on 3pl shwa]" 
 	.
 
-aama:ID08b0058b-b8b2-4628-93ae-5c199ed4ebd5 a aamas:Term ;
+aama:IDb8098d11-da8e-4174-b43f-10cd15268724 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticObj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Object ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "í%% ɗ%% í-xà " ;
-	hdi:gender hdi:Common ;
-	hdi:person hdi:Person1 ;
 	hdi:number hdi:Singular ;
+	hdi:person hdi:Person1 ;
+	hdi:gender hdi:Common ;
+	hdi:token "í, ɗ, í-xà " ;
 	.
 
-aama:IDea39b7cc-1948-481a-9d1c-ac3ca556831b a aamas:Term ;
+aama:ID546a735b-bba4-4f29-b3a0-7759dbd6f086 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticObj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Object ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
+	hdi:number hdi:Singular ;
+	hdi:person hdi:Person2 ;
+	hdi:gender hdi:Common ;
 	hdi:token "ghá" ;
-	hdi:gender hdi:Common ;
-	hdi:person hdi:Person2 ;
-	hdi:number hdi:Singular ;
 	.
 
-aama:ID366dab8a-ba51-4728-9026-104212ba2602 a aamas:Term ;
+aama:ID6846d2c9-fefb-4057-84f9-67d3d6ff15ae a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticObj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Object ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "Ø%% n" ;
-	hdi:gender hdi:Common ;
+	hdi:number hdi:Singular ;
 	hdi:person hdi:Person3 ;
-	hdi:number hdi:Singular ;
+	hdi:gender hdi:Common ;
+	hdi:token "Ø, n" ;
 	.
 
-aama:IDc64744c3-93fb-4bd6-af97-260699b69286 a aamas:Term ;
+aama:ID4a052c5b-f1f6-4619-b76a-625ef686fcd7 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticObj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Object ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "úú" ;
-	hdi:gender hdi:Common ;
-	hdi:person hdi:Person1 ;
 	hdi:number hdi:Dual ;
+	hdi:person hdi:Person1 ;
+	hdi:gender hdi:Common ;
+	hdi:token "úú" ;
 	.
 
-aama:IDba154b26-78ce-4f59-b81d-8b7eb3bc22c0 a aamas:Term ;
+aama:IDc277a9d9-d480-4469-86d0-d1b3c8511ee0 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticObj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Object ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "mù" ;
-	hdi:gender hdi:Common ;
+	hdi:number hdi:Plural ;
 	hdi:person hdi:Person1ex ;
-	hdi:number hdi:Plural ;
+	hdi:gender hdi:Common ;
+	hdi:token "mù" ;
 	.
 
-aama:IDddf99359-4b9a-4885-9af9-67cda6304f12 a aamas:Term ;
+aama:ID9c241be5-d415-40fe-9117-bdf0f72d9149 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticObj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Object ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "ŋní" ;
-	hdi:gender hdi:Common ;
+	hdi:number hdi:Plural ;
 	hdi:person hdi:Person1in ;
-	hdi:number hdi:Plural ;
+	hdi:gender hdi:Common ;
+	hdi:token "ŋní" ;
 	.
 
-aama:ID1133f106-0f34-40c5-aec3-0949d626582f a aamas:Term ;
+aama:IDf8401bb7-a986-4a9d-835f-fae4f15cf14f a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticObj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Object ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "ghúní" ;
-	hdi:gender hdi:Common ;
+	hdi:number hdi:Plural ;
 	hdi:person hdi:Person2 ;
-	hdi:number hdi:Plural ;
+	hdi:gender hdi:Common ;
+	hdi:token "ghúní" ;
 	.
 
-aama:ID41c3faba-871a-4ca7-8dd0-99f779664660 a aamas:Term ;
+aama:ID6e7b1cb6-f97e-49ef-9eda-283533280833 a aamas:Term ;
 	aamas:lang aama:Hdi ;
 	aamas:memberOf hdi:hdi-PCliticObj ;
-	hdi:pos hdi:Pronoun ;
-	hdi:pmorphClass hdi:ProMorph ;
 	hdi:case hdi:Object ;
+	hdi:pmorphClass hdi:ProMorph ;
+	hdi:pos hdi:Pronoun ;
 	hdi:proClass hdi:Clitic ;
-	hdi:token "xən" ;
-	hdi:gender hdi:Common ;
-	hdi:person hdi:Person3 ;
 	hdi:number hdi:Plural ;
+	hdi:person hdi:Person3 ;
+	hdi:gender hdi:Common ;
+	hdi:token "xən" ;
 	.
+
